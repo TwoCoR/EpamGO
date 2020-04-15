@@ -15,8 +15,7 @@ type Square struct {
 }
 
 func (s Square) End() Point {
-  p := Point{x: s.start.x + int(s.a), y: s.start.y - int(s.a)}
-  return p
+  return Point{x: s.start.x + int(s.a), y: s.start.y - int(s.a)}
 }
 
 func (s Square) Perimeter() uint{
